@@ -1,1 +1,1 @@
-# calculator
+# Simple Mortgage Calculator
