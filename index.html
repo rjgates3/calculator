@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mortgage Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <header>
+          <h1>Mortgage Calculator</h1>
+      </header>
+      <form class='js-calc'>
+      <fieldset class='calc'>
+        <ledgend>Mortgage Information</ledgend>
+        
+        <label for='amount'>Loan Amount.</label>
+        <input type='amount' name='amount' class='js-loan-amount' placeholder='100,000'/>
+
+        <label for='term'>Term in Months.</label>
+        <input type='term' name='term' class='js-term' placeholder='360'/>
+
+        <label for='rate'>Interest Rate.</label>
+        <input type='rate' name='rate' class='js-rate' placeholder='0.0475'/>
+
+        <button id='calc' type='calculate'>Calculate</button>
+      </fieldset>
+      </form>
+      <div class='js-results results'></div>
+      <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+      <footer>
+      </footer>
+    </main>
+  </body>
+</html>
